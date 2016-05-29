@@ -14,10 +14,4 @@ class Sms extends Component
 {
     public $username;
     public $password;
-
-    public function sendSms($phone, $message)
-    {
-        echo $this->username;
-        die();
-    }
 }
